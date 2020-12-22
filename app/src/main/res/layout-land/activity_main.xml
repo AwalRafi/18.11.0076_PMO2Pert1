@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp" >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/IvFlag"
+        android:src="@mipmap/country_flag" />
+
+    <TextView
+        android:id="@+id/tvHallodunia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="15dp"
+        android:layout_toEndOf="@+id/IvFlag"
+        android:layout_toRightOf="@+id/IvFlag"
+        android:text="@string/HaloDunia" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvOrangIndonesia"
+        android:textSize="25dp"
+        android:layout_below="@+id/tvHallodunia"
+        android:layout_marginStart="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="15dp"
+        android:layout_toEndOf="@+id/IvFlag"
+        android:layout_toRightOf="@+id/IvFlag"
+        android:text="@string/OrangIndonesia" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvOrangIndonesia"
+        android:textSize="25dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="15dp"
+        android:layout_toEndOf="@+id/IvFlag"
+        android:layout_toRightOf="@+id/IvFlag"
+        android:text="@string/BahasaIndonesia" />
+
+</RelativeLayout>
